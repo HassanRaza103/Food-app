@@ -1,0 +1,16 @@
+.Search_Con{
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 70px;
+    
+    display: flex;
+
+}
+
+.Search_inner_con{
+    margin-left: 280px;
+    margin-right: 60px;    
+    width: 80vw;
+
+}

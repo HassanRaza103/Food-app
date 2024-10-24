@@ -1,0 +1,25 @@
+.main_classes {
+  display: flex;
+  margin-top: 70px;
+}
+
+.video_styling {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  width: 97; 
+}
+
+.Main_video {
+  height: calc(100vh - 70px);
+  margin-left: 260px; 
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  /* display: flex; */
+}
+.Menu_bar{
+
+}

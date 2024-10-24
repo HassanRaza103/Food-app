@@ -1,0 +1,108 @@
+.Main_view{
+    display: flex;
+    align-items:start;
+    /* justify-content: center; */
+    margin-top: 5px;
+    
+}
+
+.one_view{
+    height: 110px;
+    width: 190px;
+    margin-top: 10px;
+}
+
+.two_view{
+    /* height: auto; */
+
+
+}
+
+.video_thumbnail_container{
+
+
+}
+
+.video_thumbnail_wrapper{
+    width: 190px;
+    height: 110px;
+    overflow: hidden; /* Hides any overflowed part of the image */
+   
+    border-radius: 8px;
+}
+
+.video_thumbnail{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* Scales and crops image to fit the container */
+}
+
+
+
+.video_card:hover{
+    transform: translateY(-5px);
+}
+
+.Maininner_thumbnail{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.video_titles{
+    color: black;
+    font-weight: 600;
+
+    font-size: 13px;
+    
+
+}
+
+
+
+.Chan_Name_Vers{
+    display: flex;
+    padding: 5px 0.5rem;
+}
+
+.Chan_Names{
+    color: gray;
+    font-size: 13px;
+}
+
+.Chan_Vers{
+    margin-left: 5px;
+}
+
+.Viewss{
+    /* padding: 0px 0.5rem; */
+    display: flex;
+    padding: 0px 0.5rem;
+}
+
+.Viewspans{
+    color: gray;
+    font-size: 13px;
+}
+
+.dots{
+    color: gray;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 1px;
+    margin: 0 3px;
+}
+
+.Hourss{
+    color: gray;
+    font-size: 13px;
+}
+
+.video_link {
+    text-decoration: none;
+}

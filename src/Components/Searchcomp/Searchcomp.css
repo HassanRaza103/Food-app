@@ -1,0 +1,142 @@
+.video_cardse {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+  transition: transform 0.3s ease;
+  margin-top: 25px;
+
+}
+
+.video_thumbnail_containerse {
+  width: 100%;
+
+
+}
+
+.MainSearch_Con {
+  display: flex;
+
+}
+
+.First_Serch_Con {}
+
+.Second_Serch_Con {
+
+  margin-left: 15px;
+
+}
+
+.imageStylings {
+  height: 170px;
+  width: 250px;
+}
+
+.Maininner_thumbnailse {}
+
+.video_descriptions1 {
+  margin-top: 10px;
+}
+
+.Des_Text {
+  font-size: 13px;
+  color: gray;
+
+}
+
+
+.LasTSearc_con {
+  display: flex;
+  margin-top: 15px;
+}
+
+
+
+.video_thumbnailse {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.sub_views_con {
+  margin-left: 10px;
+}
+
+.video_cardse:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.Dp_Title_Conse {}
+
+
+
+.Dp_Conse {
+  display: flex;
+  align-items: center;
+}
+
+.Dp_Stylingse {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+.video_cardse a {
+  text-decoration: none;
+  color: black;
+}
+
+.video_titlese {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+}
+
+.Chan_Name_Verse {
+  display: flex;
+
+}
+
+.Chan_Namese {
+  color: rgb(0, 0, 0);
+}
+
+.Chan_Verse {
+  margin-left: 5px;
+}
+
+.Viewsse {
+
+  display: flex;
+}
+
+.Viewspanse {
+  color: rgb(2, 2, 2);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.dotse {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 1px;
+  margin: 0 3px;
+}
+
+.Hoursse {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+}

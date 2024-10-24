@@ -1,0 +1,31 @@
+.Home_menuV{
+    height: 47px;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    
+}
+.Home_menuV i{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+.Home_menuV span{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.Home_menuV:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.Home_menuV h3{
+    margin-left: 15px;
+}
+.icon-imageV {
+    margin-left: 20px;
+    width: 28px;
+    height: 28px;
+    border-radius: 30px; 
+   
+}

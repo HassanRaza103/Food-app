@@ -1,0 +1,58 @@
+.Side_bar_Con{
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed; /* Fixes the sidebar to the left */
+    left: 0; /* Aligns the sidebar to the left */
+    top: 80px; /* Adjusts according to the margin-top of the main content */
+    background-color: white; /* Set background color to make it visible */
+    z-index: 10; 
+    
+
+
+}
+
+
+.Side_bar_Con::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 4px; 
+}
+
+.Side_bar_Con:hover::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+
+
+
+
+
+
+
+
+.my-line{
+    margin: 10px 0; 
+    border-top: 0 solid black;
+    width: 235px; 
+       
+  }
+
+  .Sub_heading{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar_Fotter span{
+    font-size: 15px;
+    color: rgb(97, 96, 96);
+  }
+
+  .sidebar_Fotter p{
+    color: gray;
+    font-size: 13px;
+  }

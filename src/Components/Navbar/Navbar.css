@@ -1,0 +1,314 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: border-box;
+}
+
+/*              NavBar////// */
+
+.Nav_MainCon {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+
+
+
+/* Start Nav */
+
+
+
+
+.Start_Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 220px;
+
+
+
+}
+
+.Start_Navbar i {
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.Youtube_icon {
+  height: 23px;
+  width: 100px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* middle navbar */
+
+
+.Middle_Navbar {
+  width: 780px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+
+.Middle_Nav {
+  display: flex;
+  align-items: center;
+}
+
+.Input_search {
+  height: 40px;
+  width: 520px;
+  background-color: white;
+  border: 0.1px solid gray;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding-left: 15px;
+  font-size: 16px;
+  outline: none;
+
+}
+
+.Middle_Nav i {
+  font-size: 23px;
+  cursor: pointer;
+  color: black;
+  background-color: whitesmoke;
+  height: 40px;
+  width: 70px;
+  border: 1px solid gray;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  align-content: center;
+  text-align: center;
+
+}
+
+.Middle_Nav_mic i {
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  background-color: whitesmoke;
+  height: 40px;
+  width: 40px;
+  border: 1px solid gray;
+  border-radius: 40px;
+  border: none;
+  align-content: center;
+  text-align: center;
+  margin-left: 18px;
+}
+
+
+
+
+
+
+/* End Nav */
+
+
+
+
+
+
+.End_Navbar {
+  width: 220px;
+  display: flex;
+  align-items: center;
+
+
+
+
+}
+
+.First_end {
+  display: flex;
+  align-items: center;
+}
+
+.Sec_end {}
+
+
+.End_Navbar {}
+
+
+.Profile_img {
+  height: 35px;
+  width: 35px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 1.7rem;
+}
+
+.videoIcon i {
+  font-size: 18px;
+  cursor: pointer;
+  color: black;
+  align-content: center;
+  margin-left: 2.5rem;
+
+}
+
+.Bellicon i {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  align-content: center;
+  margin-left: 1.7rem;
+
+}
+
+
+
+
+
+
+
+
+/* Navbar.css */
+.Nav_MainCon {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  /* background-color: #f8f8f8; */
+}
+
+.Profile_img {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.Profile_class {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.Dp_Class {
+height: 50px;
+width: 50px;
+}
+.Profile_Image_Con{
+  height: 100%;
+  width: 100%;
+border-radius: 30px;
+
+}
+
+.Text_Class {
+margin-left: 15px;
+}
+.o_Text{
+}
+.t_Text{
+  margin-top: 5px;
+
+}
+.th_Text{
+text-decoration: none;
+color: rgb(63, 63, 235);
+font-size: 15px;
+margin-top: 12px;
+cursor: pointer;
+
+}
+
+.Popup_Box {
+  position: absolute;
+  top: 20px;
+  right: 7rem;
+  width: 320px;
+  height: 600px;
+  background-color: white;
+  border: 1px solid #fffdfd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.Icon_List{
+overflow-y: scroll;
+overflow-x: hidden;
+height: 500px;
+
+
+}
+
+.Icon_List::-webkit-scrollbar-thumb{
+  background-color: transparent;
+}
+
+
+
+
+
+.Popup_Box2 {
+
+  position: absolute;
+  top: 62px;
+  right: 1.5rem;
+  width: 175px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Popup_Box2 h4 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.Popup_Box2 p {
+  font-size: 1em;
+}
+
+
+
+
+.Popup_Box3 {
+  position: absolute;
+  top: 20px;
+  right: 10rem;
+  width: 450px;
+  height: 550px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+}
+
+.Popup_Box3 h4 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.Popup_Box3 p {
+  font-size: 1em;
+}

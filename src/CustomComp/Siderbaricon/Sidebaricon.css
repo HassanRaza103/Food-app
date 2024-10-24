@@ -1,0 +1,32 @@
+.Home_menu{
+    height: 47px;
+    width: 220px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.Home_menu i{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+.Home_menu span{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.Home_menu:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.Home_menu h3{
+    margin-left: 15px;
+}
+.icon-image {
+    margin-left: 20px;
+    width: 28px;
+    height: 28px;
+    border-radius: 30px; 
+   
+}
